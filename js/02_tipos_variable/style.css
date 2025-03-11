@@ -32,5 +32,6 @@ a:hover{
 
 button{
     background-color: darksalmon;
-    
+    padding: 50px;
+    border-radius: 40px;
 }

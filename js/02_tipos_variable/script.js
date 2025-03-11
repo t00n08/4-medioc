@@ -25,7 +25,7 @@ function textoo(){
 }
 
 function arrayy(){
-    alert(array)
+    alert("array is: \n" + array)
 }
 
 function objetos(){

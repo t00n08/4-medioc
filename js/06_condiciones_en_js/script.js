@@ -8,3 +8,14 @@ function temperatura() {
         alert("hace calor");
     }
 }
+
+function usuarioe() {
+    let usuario = prompt("Ingresa el usuario ")
+    let contraseña = prompt("Ingresa tu contraseña ")
+    if (usuario === "usuario123"&& contraseña === "secreto") {
+        alert("usuario correcto")
+    } else {
+    alert("usuario incorrecto")
+    }
+
+}

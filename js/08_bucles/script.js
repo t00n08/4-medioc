@@ -1,23 +1,18 @@
 function numeros() {
-    let num = prompt("ingrese valor");
-    if(num %2 ==0){
-        alert("numero par")
-    }else{
-        alert("numero no par")
-    }
+    let i = 1;
+while (i <=10) {
+  console.log(i);
+  i++;
+}
 }
 
 function imc() {
-    let peso = prompt("ingrese tu peso:");
-    let altura = prompt("ingrese tu altuira:");
-    let imc = peso / (altura * altura);
-    if (imc < 18.5) {
-        alert("Bajo peso");
-    } else if (imc >= 18.5 && imc < 25) {
-        alert("Peso normal");
-    } else {
-        alert("Sobrepeso");
+    let count = 10;
+    let array = [];
+    for (let count = 10; count >= 1; count-- ){
+        array.push(count);
     }
+    alert(`Los números son: ${array.join(" - ")}`);
 }
 
 function pome() {

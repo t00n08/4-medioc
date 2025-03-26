@@ -1,13 +1,13 @@
 function numeros() {
-    let i = 1;
+    let i = prompt("ingre");
 while (i <=10) {
-  console.log(i);
+  alert(i);
   i++;
 }
 }
 
 function imc() {
-    let count = 10;
+    
     let array = [];
     for (let count = 10; count >= 1; count-- ){
         array.push(count);
@@ -15,17 +15,22 @@ function imc() {
     alert(`Los números son: ${array.join(" - ")}`);
 }
 
-function pome() {
-    let nota1 = prompt("ingrese tu nota:");
-    let nota2 = prompt("ingrese tu peso:");
-    let nota3 = prompt("ingrese tu peso:");
-    let promedio = (nota1 + nota2 + nota3) / 3;
-    if (promedio < 4.0) {
-        alert("Reprobado");
-      } else {
-        alert("Aprobado");
-      }
+function cien() {
+    let array = [];
+    for (let m = 100; m >= 1; m-- ){
+        array.push(m);
+    }
+    alert(`Los números son: ${array.join(" - ")}`);
 }
 
+function suma() {
+  let sumas = 0;
+  let array = [];
+  for (let i = 1; i <= 5; i++ ){
+      suma += i;
+      array.push(i);
+  }
+  alert(sumas);
+}
 
 

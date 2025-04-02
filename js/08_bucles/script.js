@@ -1,12 +1,27 @@
 function numeros() {
-    let i = prompt("ingre");
-while (i <=10) {
-  alert(i);
+    let i = 1
+    let n = prompt("ingre");
+    let array = []
+while (i <=n) {
+    array.push(i);
   i++;
 }
+alert(`contando:${array.join("-")}`)
 }
 
 function imc() {
+    let i = 1
+    let n = parseInt(prompt("ingresa"));
+    let array = []
+while (i <=n) {
+    array.push(n);
+  n--;
+}
+alert(`contando:${array.join("-")}`)
+}
+
+
+function im() {
     
     let array = [];
     for (let count = 10; count >= 1; count-- ){

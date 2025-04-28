@@ -1,4 +1,4 @@
-function númerosnaturales() {
+function numerosNaturales() {
     let n = parseInt(prompt("Ingresa un número: "));
     let suma = 0;
     let array = [];

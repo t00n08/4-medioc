@@ -1,4 +1,4 @@
-function registro() { //ejercicio 1
+function registro() { 
     let participantes = [];
     let nombre = prompt("Ingresa el nombre del participante (o 'salir' para terminar):");
     let cantidad = 0;
@@ -14,7 +14,7 @@ function registro() { //ejercicio 1
     }
 }
 
-function caja() { //ejercicio 2
+function caja() {
     let productos = ["frutilla", "carne", "leche", "pan"];
     for (let i = 0; i < 5; i++)
         if (productos.length > 0) {

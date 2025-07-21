@@ -201,3 +201,27 @@ function agregar_inicio_orden() {
     input.focus(); // agrega foco hacia el input
     mostrar_lista_orden();
 }
+
+let historial = []
+let eliminados = []
+
+function mostrarMensaje(){
+    const lista = document.getElementById("resultado7");
+    lista.innerHTML="";
+
+    for(let i = 0; i < historial.length; i++){
+        const li = document.createElement("li");
+        li.className = "list-group-item d-flex justify-content-between align-items-center mb-2";
+        li.textContent = `-${historial[i]}`;
+        lista.appendChild(li);
+    }
+}
+
+function mostrareliminados(){
+    const lista = document.getElementById("eliminados");
+    lista.innerHTML="";
+
+    for(let i = 0; i < eliminados.length; i++){
+        const li = document.createElement("li")
+    }
+}

@@ -3,10 +3,10 @@ function ejemplo(elemento) {
 }
 
 function turnOff(element) {
-    if(element.innerText == "On"){
-        element.innerText = "Off";
+    if(element.innerText == "Login"){
+        element.innerText = "Logout";
     }else{
-        element.innerText = "On";
+        element.innerText = "Login";
     }
     
 }

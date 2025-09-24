@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    background-color: #cccccc;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.log{
+      border: none;
+  color: white;
+  padding: 14px 28px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #007bff; 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.log:hover {
+  background-color: #0056b3; /* Cambia el color al pasar el cursor sobre el botón */
+}

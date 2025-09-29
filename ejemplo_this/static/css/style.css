@@ -8,12 +8,15 @@
     background-color: #cccccc;
     align-items: center;
     justify-content: space-between;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    padding: 15px;
 }
 
 .log{
       border: none;
   color: white;
-  padding: 14px 28px;
+  padding: 4px 18px;
   cursor: pointer;
   border-radius: 5px;
   background-color: #007bff; 
